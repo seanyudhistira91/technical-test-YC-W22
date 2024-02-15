@@ -1,7 +1,7 @@
 # technical-test-YC-W22
 
 This project is structured based on the principles of Clean Architecture to promote separation of concerns and maintainability. The codebase is organized into layers, each with distinct responsibilities, facilitating testability and scalability.
-
+```
 .
 ├── cmd             # Command-line application entry point
 │   └── yourapp
@@ -13,7 +13,7 @@ This project is structured based on the principles of Clean Architecture to prom
 ├── service         # Business logic
 ├── migrations      # Database migration files
 └── utils           # Utility functions
-
+```
 
 We use existing libs :
 
@@ -27,7 +27,6 @@ We use existing libs :
 ## Setups
 -  Clone Repo
 ```
-- after clone repo run
 $ 	go mod tidy
    ```
 - Install [golang-migrate](https://github.com/golang-migrate/migrate?tab=readme-ov-file) for migration tools
